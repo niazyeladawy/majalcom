@@ -1,0 +1,20 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer .socials li{
+    margin-left: 30px;
+}
+.footer .socials a{
+    color: var(--main-color);
+    font-size: 24px;
+}
+.footer .navs  li  a{
+    color: #000;
+    text-decoration: none;
+
+}
+.copyright{
+    font-family: 'Cairo', sans-serif !important ;
+}

@@ -1,0 +1,55 @@
+.services__desc h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.services__desc  p{
+    color: rgba(113, 113, 113, 1);
+    font-size: 18px;
+}
+.service_slider_title{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.services .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after{
+    font-size: 50px;
+}
+.services .alice-carousel__next-btn-item{
+    position: absolute;
+    top:-116px;
+    right: 0;
+    background: red;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.services .alice-carousel__next-btn{
+    padding: 0 !important;
+}
+.services .alice-carousel__prev-btn-item{
+    position: absolute;
+    top:-116px;
+    right: 80px;
+    background: red;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.services .alice-carousel__prev-btn{
+    padding: 0 !important;
+}
+.service__image{
+    height: 350px;
+}

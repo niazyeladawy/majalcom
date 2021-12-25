@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    --main-color:#6C3A79;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: 'Poppins', sans-serif !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-main{
+    background-color: rgba(108, 58, 121, .1);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-padding{
+    padding: 100px 0;
 }
-
-.App-link {
-  color: #61dafb;
+.main-btn{
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 30px;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whatsapp{
+    bottom: 20px;
+    right: 100px;
+    z-index: 999;
 }

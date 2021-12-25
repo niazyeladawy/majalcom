@@ -1,0 +1,15 @@
+.testimonials .item img{
+    width: 100px;
+}
+.testimonials .item{
+    border-radius: 10px;
+    text-align: center;
+}
+.testimonials .item h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.testimonials .item p{
+    color: rgba(116, 129, 140, 1);
+    line-height: 1.8;
+}

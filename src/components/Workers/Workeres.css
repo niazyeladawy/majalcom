@@ -1,0 +1,68 @@
+.section__title h2{
+    font-size: 50px;
+    color: var(--main-color);
+}
+.indicate i{
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+    
+}
+.indicate i:last-child{
+    margin-left: 30px;
+}
+.workers .item{
+    background-color: rgba(255, 255, 255, .58);
+    border-radius: 30px;
+    padding: 50px 0;
+    text-align: center;
+}
+.workers .item h3{
+    margin-top: 20px;
+}
+.workers .item img{
+    width: 84px;
+}
+
+.workers .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after{
+    font-size: 50px;
+}
+.workers .alice-carousel__next-btn-item{
+    position: absolute;
+    top:-116px;
+    right: 0;
+    background: red;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.workers .alice-carousel__next-btn{
+    padding: 0 !important;
+}
+.workers .alice-carousel__prev-btn-item{
+    position: absolute;
+    top:-116px;
+    right: 80px;
+    background: red;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.workers .alice-carousel__prev-btn{
+    padding: 0 !important;
+}
+.worker__image{
+    height: 100px;
+}

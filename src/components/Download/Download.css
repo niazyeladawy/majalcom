@@ -1,0 +1,34 @@
+.download{
+    background-color: var(--main-color);
+}
+.download h2{
+    font-size: 56px;
+}
+.download h4{
+    font-size: 18px;
+}
+.phone1 {
+    top: 177px;
+    right: 74px;
+}
+.phone1 img{
+    width: 800px;
+}
+.phone2 {
+    top: -320px;
+
+    right: 60px;
+}
+.phone2 img{
+    width: 800px;
+}
+.phone3 {
+    bottom: -298px;
+    right: -359px;
+}
+.phone3 img{
+    width: 800px;
+}
+.download{
+    padding-bottom: 200px;
+}

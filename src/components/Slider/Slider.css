@@ -1,0 +1,60 @@
+.carousel-caption{
+    bottom: 50% !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% ;
+    background-color: var(--main-color) !important;
+}
+
+.carousel-inner h5{
+    font-size: 50px;
+}
+.slider-caption{
+    top: 50%;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+
+.slider .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after{
+    font-size: 50px;
+}
+.slider .alice-carousel__next-btn-item{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 30px;
+    background: red;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.slider .alice-carousel__next-btn{
+    padding: 0 !important;
+}
+.slider .alice-carousel__prev-btn-item{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 30px;
+    background: red;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 26px;
+    padding:10px 13px;
+    border-radius: 5px;
+}
+.slider .alice-carousel__prev-btn{
+    padding: 0 !important;
+}
