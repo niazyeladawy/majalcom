@@ -25,7 +25,7 @@ function Slider() {
     };
 
     const items = images?.map((item) => (
-        <div className='item vh-100 position-relative   '>
+        <div className='silder-single-item  position-relative   '>
             <img src={item.image} className='h-100 w-100' alt={item.name} />
             <h3 className='position-absolute slider-caption'>{item.text}</h3>
         </div>
@@ -35,13 +35,13 @@ function Slider() {
         <AliceCarousel
             mouseTracking
             items={items}
-            responsive={responsive} infinite disableDotsControls
+            responsive={responsive} infinite autoPlay autoPlayInterval={2000}
             controlsStrategy="alternate"
 
         />
     );
     return (
-        <div className='slider vh-100'>
+        <div className='slider '>
             <Carousel />
         </div>
     )

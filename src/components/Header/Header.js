@@ -4,14 +4,17 @@ import logo from '../../assets/Group 2293.svg'
 
 function Header() {
     return (
-        <div className='header position-absolute w-100 py-4'>
+        <div className='navbar navbar-dark  header position-absolute w-100 py-4 navbar-expand-lg'>
             <div className='container '>
+                <a href="#gg" className='logolink'><img className='logoimg' src={logo} alt="logo" /></a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-                <div className='row align-items-center'>
-                    <div className='col-lg-4'>
+                <div className='row align-items-center collapse navbar-collapse' id='navbarSupportedContent'>
+                    <div className='col-lg-2'>
                         <div className='item'>
                             <div className='header__left d-flex align-items-center justify-content-md-between justify-content-lg-start'>
-                                <a href="#gg"><img src={logo} alt="logo" /></a>
                                 <div className="dropdown">
                                     <button className="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         Language
@@ -24,7 +27,7 @@ function Header() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-8'>
                         <div className='item'>
 
                             <div className='header__center'>

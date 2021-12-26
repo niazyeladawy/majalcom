@@ -22,8 +22,8 @@ function Footer() {
             <div className='container'>
                 <div className='row align-items-center'>
                     <div className='col-xl-2'>
-                        <div className='item'>
-                            <a href="ss"><img src={logo} alt="logo"/></a>
+                        <div className='item d-flex'>
+                            <a className='footer__logo' href="ss"><img src={logo} alt="logo"/></a>
                         </div>
                     </div>
                     <div className='col-xl-8'>
@@ -41,7 +41,7 @@ function Footer() {
                     </div>
                     <div className='col-xl-2'>
                         <div className='item'>
-                            <ul className='socials list-unstyled d-flex '>
+                            <ul className='socials list-unstyled d-flex justify-content-center'>
                                 <li><a href={socials && socials.facebook}><i className='fab fa-facebook-f'></i></a></li>
                                 <li><a href={socials && socials.facebook}><i className='fab fa-twitter'></i></a></li>
                                 <li><a href={socials && socials.facebook}><i className='fab fa-youtube'></i></a></li>

@@ -18,3 +18,7 @@
 .copyright{
     font-family: 'Cairo', sans-serif !important ;
 }
+.footer__logo{
+    display: block;
+    margin: auto;
+}
