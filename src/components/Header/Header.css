@@ -33,10 +33,19 @@
     .dropdown{
         margin: auto;
     }
+    .header{
+        background-color: rgba(0, 0, 0, .6);
+        z-index: 99;
+    }
 }
 @media (max-width: 768px) {
     .logoimg{
         width: 100px;
     }
-    
+    .header .contactus,.header__center ul li{
+        font-size: 12px;
+    }
+    .header__center{
+        margin: 0 0 0 17px;
+    }
 }

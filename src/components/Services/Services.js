@@ -52,14 +52,14 @@ function Services() {
                     <Carousel/>
                 </div>
                 <div className='services__desc'>
-                    <div className='row align-items-center'>
-                        <div className='col-lg-4 px-5 mb-md-3'>
-                            <div className='item'>
+                    <div className='row align-items-center mt-5'>
+                        <div className='col-lg-4  mb-md-3'>
+                            <div className='item px-5'>
                                 <img src={servie} className='w-100' alt="services"/>
                             </div>
                         </div>
                         <div className='col-lg-8'>
-                            <div className='item'>
+                            <div className='item services__desc__info'>
                                 <h3>We Provide Services that Help your Business Grow</h3>
                                 <p className='service__p'>Al Majal Advanced Services Company (Majalcom) is a Saudi company of origin and management based in Jeddah. It was established by a group of specialists with practical experience spanning more than 20 years in the field of support services in various activities and fields. Majalcom provides a range of services to its clients within the framework of flexible pricing programs and distinctive services supported by long management experience. Majalcom is inspired by its name for its activity, as it provides, in addition to basic services, cleaning, operation and maintenance of many specialized services in many fields</p>
                                 <button className='main-btn mt-5'>Request For Service</button>

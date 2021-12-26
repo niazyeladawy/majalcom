@@ -102,7 +102,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <div className='position-absolute bottom-0'>
+            <div className='position-absolute bottom-0 footer__shape'>
                 <img src={shape} alt="shape"/>
             </div>
         {<Footer />}

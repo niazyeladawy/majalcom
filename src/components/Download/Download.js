@@ -22,7 +22,7 @@ function Download() {
 
     return (
         <div className='download section-padding position-relative overflow-hidden'>
-            <div className='container text-white position-relative'>
+            <div className='container text-white position-relative download__content' >
                 <h2>Download Majalcom <br/> app in your mobile.</h2>
                 <h4>Download our mobile app in your IOS & Android  <br/> app store and start shopping from it hurry now</h4>
                 <div className='apps mt-5'>

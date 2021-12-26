@@ -28,7 +28,6 @@ function Footer() {
                     </div>
                     <div className='col-xl-8'>
                         <div className='item text-center'>
-
                             <ul className='list-unstyled d-flex justify-content-around navs'>
                                 <li><a href="#ss">About Us </a></li>
                                 <li><a href="#ss"> Contact Us </a></li>

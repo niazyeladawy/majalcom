@@ -82,7 +82,14 @@
 }
 
 
-
+@media (max-width: 992px){
+    .phone2{
+        display: none;
+    }
+    .services__desc .item h3{
+        margin-top: 50px;
+    }
+}
 @media (max-width: 768px) {
     .slider-caption{
         display: none;
@@ -91,6 +98,12 @@
         display: none;
     }
     .slider .alice-carousel__prev-btn-item{
+        display: none;
+    }
+    .slider .alice-carousel__next-btn{
+        display: none;
+    }
+    .slider .alice-carousel__prev-btn{
         display: none;
     }
     h2{
@@ -110,5 +123,54 @@
     }
     .contact__info p{
         font-size: 14px;
+    }
+    .services__desc__info{
+        padding: 10px 30px;
+    }
+    .faq .accordion-item h2 button{
+        font-size: 20px !important ;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .contact-content{
+        top: -30px;
+    }
+    .contact form .d-flex{
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    .contact form .d-flex input,.contact form .d-flex textarea{
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+    }
+}
+@media (max-width: 600px){
+    .download__content{
+        padding: 10px 50px !important;
+    }
+}
+
+@media (max-width: 510px){
+    h2,.contact-content .item h3{
+        font-size: 26px !important;
+    }
+    .download .apps a{
+        display: block;
+        margin-right: 0 !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    input{
+        font-size: 14px !important;
+    }
+    .footer .navs li a{
+        font-size: 14px !important;
+    }
+    .footer__shape img{
+        width: 200px;
+    }
+    .silder-single-item{
+        height: 50vh;
     }
 }
