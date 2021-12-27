@@ -6,12 +6,3 @@
     font-weight: 600;
 }
 
-@media (max-width: 577px) {
-    .clients .col-sm-6{
-        margin-bottom: 30px;
-        
-    }
-    .clients .col-sm-6 >div{
-        justify-content: center;
-    }
-}

@@ -1,0 +1,152 @@
+@media (max-width: 1400px) {
+    .header .contactus,
+    .header__center ul li {
+      font-size: 16px;
+    }
+}
+@media (max-width: 992px) {
+  .phone2 {
+    display: none;
+  }
+  .services__desc .item h3 {
+    margin-top: 50px;
+  }
+  .header__left {
+    margin: auto;
+  }
+  .dropdown {
+    margin: auto;
+  }
+  .header {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+  }
+  .contact {
+    height: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  .slider-caption {
+    display: none;
+  }
+  .slider .alice-carousel__next-btn-item {
+    display: none;
+  }
+  .slider .alice-carousel__prev-btn-item {
+    display: none;
+  }
+  .slider .alice-carousel__next-btn {
+    display: none;
+  }
+  .slider .alice-carousel__prev-btn {
+    display: none;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  .main-btn {
+    font-size: 18px !important;
+  }
+  .item h3 {
+    font-size: 18px;
+  }
+  .service__p {
+    font-size: 16px !important;
+  }
+  .whatsapp {
+    right: 20px !important;
+  }
+  .contact__info p {
+    font-size: 14px;
+  }
+  .services__desc__info {
+    padding: 10px 30px;
+  }
+  .faq .accordion-item h2 button {
+    font-size: 20px !important ;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .contact-content {
+    top: -30px;
+  }
+  .contact form .d-flex {
+    flex-direction: column;
+    margin: 0 !important;
+  }
+  .contact form .d-flex input,
+  .contact form .d-flex textarea {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  .logoimg {
+    width: 100px;
+  }
+  .header .contactus,
+  .header__center ul li {
+    font-size: 12px;
+  }
+  .header__center {
+    margin: 0 0 0 17px;
+  }
+  .contact {
+    height: 1300px;
+  }
+}
+@media (max-width: 600px) {
+  .download__content {
+    padding: 10px 50px !important;
+  }
+}
+@media (max-width: 577px) {
+  .contact-content .col-lg-4 {
+    margin-bottom: 30px;
+  }
+  .testimonials .col-lg-3 {
+    margin-bottom: 20px;
+  }
+  .clients .col-sm-6{
+    margin-bottom: 30px;
+    
+}
+.clients .col-sm-6 >div{
+    justify-content: center;
+}
+}
+@media (max-width: 542px) {
+  .contact {
+    height: 1350px;
+  }
+}
+@media (max-width: 510px) {
+    h2,
+    .contact-content .item h3 {
+      font-size: 26px !important;
+    }
+    .download .apps a {
+      display: block;
+      margin-right: 0 !important;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input {
+      font-size: 14px !important;
+    }
+    .footer .navs li a {
+      font-size: 14px !important;
+    }
+    .footer__shape img {
+      width: 200px;
+    }
+    .silder-single-item {
+      height: 50vh;
+    }
+    .contact__item i {
+      padding: 10px;
+      background-color: rgba(108, 58, 121, 0.1);
+    }
+    .contact {
+      height: 1200px;
+    }
+}
