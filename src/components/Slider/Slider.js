@@ -25,8 +25,8 @@ function Slider() {
     };
 
     const items = images?.map((item) => (
-        <div className='silder-single-item  position-relative   '>
-            <img src={item.image} className='h-100 w-100' alt={item.name} />
+        <div className='silder-single-item  position-relative vh-100   ' style={{backgroundImage:`url(${item.image})` , backgroundSize:"cover",backgroundPosition:'center'}}>
+            
             <h3 className='position-absolute slider-caption'>{item.text}</h3>
         </div>
     ))

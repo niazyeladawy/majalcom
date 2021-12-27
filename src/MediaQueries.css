@@ -24,6 +24,7 @@
   .contact {
     height: 1000px;
   }
+  
 }
 @media (max-width: 768px) {
   .slider-caption {
@@ -87,8 +88,9 @@
   .header__center ul li {
     font-size: 12px;
   }
-  .header__center {
-    margin: 0 0 0 17px;
+  .header__center ul{
+    margin: 10px 0 !important;
+   justify-content: space-between;
   }
   .contact {
     height: 1300px;
