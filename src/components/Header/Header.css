@@ -10,6 +10,7 @@
 .header__center ul li a{
     text-decoration: none;
     color: #fff;
+    transition: var(--main-transition);
 }
 .header .contactus{
     color: var(--main-color);
@@ -19,4 +20,6 @@
 .logoimg{
     width: 150px;
 }
-
+.header__center li a:hover{
+    color: var(--main-color);
+}

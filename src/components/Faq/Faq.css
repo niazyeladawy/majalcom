@@ -1,3 +1,6 @@
 .faq .accordion-item h2 button{
     font-size: 24px !important ;
 }
+.faq .accordion-button:not(.collapsed){
+    color: var(--main-color);
+}

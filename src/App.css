@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@400;500;600;700&display=swap');
 :root{
     --main-color:#6C3A79;
-    
+    --main-transition: all 0.2s ease-in-out ;
 }
 body{
     font-family: 'Poppins', sans-serif !important;
