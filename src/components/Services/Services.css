@@ -53,3 +53,30 @@
 .service__image{
     height: 350px;
 }
+
+
+.services .swiper-button-next:after,
+.services .swiper-button-prev:after {
+  color: #fff;
+  font-size: 30px !important;
+}
+.services .swiper-button-next,
+.services .swiper-button-prev {
+    
+  background-color: #6c3a79 !important ;
+  padding: 22px 22px !important;
+  border-radius: 5px;
+  top: 34px;
+
+}
+.services .swiper{
+    position: static;
+}
+.services .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 0;
+    left: auto;
+}
+.services .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 60px !important;
+}

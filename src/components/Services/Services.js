@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import servie from '../../assets/services/Group 210.svg';
-import './Services.css';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 import axios from 'axios';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import './Services.css';
+
 
 function Services() {
 
@@ -18,11 +24,7 @@ function Services() {
         getData();
     }, [])
 
-    const responsive = {
-        0: { items: 1 },
-        568: { items: 2 },
-        1024: { items: 3 },
-    };
+    
     
     const items = service?.map((item) => (
         <div className='service_slider_item position-relative mx-3'  >
@@ -32,24 +34,53 @@ function Services() {
         </div>
     ))
     
-    const Carousel = () => (
-        <AliceCarousel
-            mouseTracking
-            items={items}
-             responsive={responsive} infinite disableDotsControls
-            controlsStrategy="alternate"
-            
-        />
-    );
-
     return (
         <div className='services section-padding bg-white'>
-            <div className='container'>
+            <div className='container position-relative'>
                 <div className='section__title d-flex justify-content-between mb-5'>
                     <h2>Services</h2>
                 </div>
                 <div>
-                    <Carousel/>
+                <Swiper
+                    modules={[Navigation, Pagination, A11y]}
+                    navigation
+                    breakpoints={{
+                        // when window width is >= 640px
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                          },
+                          768: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                          },
+                          1000: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                          },
+                          1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                          },
+                    }}
+                    loop={true}
+                    spaceBetween={0}
+                    
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                
+                >
+                    {
+                        service && service.map((item) => (
+
+                            <SwiperSlide key={item.id}><div className='service_slider_item position-relative mx-3'  >
+            
+                            <img src={item.image} alt={item.name} className='w-100 service__image'/>
+                            <h3 className='position-absolute service_slider_title fs-1'>sds</h3>
+                        </div></SwiperSlide>
+                        ))
+                    }
+                </Swiper> 
                 </div>
                 <div className='services__desc'>
                     <div className='row align-items-center mt-5'>

@@ -1,68 +1,94 @@
-.section__title h2{
-    font-size: 50px;
-    color: var(--main-color);
+.section__title h2 {
+  font-size: 50px;
+  color: var(--main-color);
 }
-.indicate i{
-    color: #fff;
-    background-color: var(--main-color);
-    font-size: 26px;
-    padding:10px 13px;
-    border-radius: 5px;
-    
+.indicate i {
+  color: #fff;
+  background-color: var(--main-color);
+  font-size: 26px;
+  padding: 10px 13px;
+  border-radius: 5px;
 }
-.indicate i:last-child{
-    margin-left: 30px;
+.indicate i:last-child {
+  margin-left: 30px;
 }
-.workers .item{
-    background-color: rgba(255, 255, 255, .58);
-    border-radius: 30px;
-    padding: 50px 0;
-    text-align: center;
+.workers .item {
+  background-color: rgba(255, 255, 255, 0.58);
+  border-radius: 30px;
+  padding: 50px 0;
+  text-align: center;
 }
-.workers .item h3{
-    margin-top: 20px;
+.workers .item h3 {
+  margin-top: 20px;
 }
-.workers .item img{
-    width: 84px;
+.workers .item img {
+  width: 84px;
 }
 
-.workers .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after{
-    font-size: 50px;
+.workers .alice-carousel__prev-btn [data-area]::after,
+.alice-carousel__next-btn [data-area]::after {
+  font-size: 50px;
 }
-.workers .alice-carousel__next-btn-item{
-    position: absolute;
-    top:-116px;
+.workers .alice-carousel__next-btn-item {
+  position: absolute;
+  top: -116px;
+  right: 0;
+  background: red;
+  padding: 0;
+  height: auto;
+  margin: 0;
+  color: #fff;
+  background-color: var(--main-color);
+  font-size: 26px;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+.workers .alice-carousel__next-btn {
+  padding: 0 !important;
+}
+.workers .alice-carousel__prev-btn-item {
+  position: absolute;
+  top: -116px;
+  right: 80px;
+  background: red;
+  padding: 0;
+  height: auto;
+  margin: 0;
+  color: #fff;
+  background-color: var(--main-color);
+  font-size: 26px;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+.workers .alice-carousel__prev-btn {
+  padding: 0 !important;
+}
+.worker__image {
+  height: 100px;
+}
+
+.workers .swiper-button-next:after,
+.workers .swiper-button-prev:after {
+  color: #fff;
+  font-size: 30px !important;
+}
+.workers .swiper-button-next,
+.workers .swiper-button-prev {
+    
+  background-color: #6c3a79 !important ;
+  padding: 22px 22px !important;
+  border-radius: 5px;
+  top: 34px;
+
+}
+.workers .swiper{
+    position: static;
+}
+.workers .swiper-button-next, .swiper-rtl .swiper-button-prev {
     right: 0;
-    background: red;
-    padding: 0;
-    height: auto;
-    margin: 0;
-    color: #fff;
-    background-color: var(--main-color);
-    font-size: 26px;
-    padding:10px 13px;
-    border-radius: 5px;
+    left: auto;
 }
-.workers .alice-carousel__next-btn{
-    padding: 0 !important;
-}
-.workers .alice-carousel__prev-btn-item{
-    position: absolute;
-    top:-116px;
-    right: 80px;
-    background: red;
-    padding: 0;
-    height: auto;
-    margin: 0;
-    color: #fff;
-    background-color: var(--main-color);
-    font-size: 26px;
-    padding:10px 13px;
-    border-radius: 5px;
-}
-.workers .alice-carousel__prev-btn{
-    padding: 0 !important;
-}
-.worker__image{
-    height: 100px;
+.workers .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 60px !important;
 }
